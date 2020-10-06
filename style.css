@@ -1,56 +1,44 @@
 
   .nav-out {
-    font-family: "Fira Sans", sans-serif;
-    padding-top: 10px;
-    padding-bottom: 9px;
-    background: #666;
+    font-family: sans-serif;
+    padding: 10px;
+    background: #33383b;
     display: inline-block;
     width: 100%;
+    
   }
   
-  #bars {
-    vertical-align: top;
-    margin-top: 5px;
+
+  #currentTime {
+    color: white;
+    font-weight: 700;
     float: right;
+  }
+
+  #bars {
     font-size: 21px;
     border: 2px solid black;
     padding: 3px 5px;
     cursor: pointer;
     display: none;
-    margin-right: 7px;
-  }
-
-  #bars:hover {
-    color: #96cf6f;
-    border: 2px solid #96cf6f;
-  }
-  .links-container {
-    vertical-align: top;
-    margin-top: 7px;
-    display: inline-block;
-    float: left;
-    margin-right: 7px;
   }
 
   .links-container a {
-    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
   }
   .links-container div {
     display: inline-block;
-    margin: 0 7px;
-    vertical-align: top;
-    margin-top: 10px;
     padding: 5px 9px;
-    border-radius: 3px;
   }
 
   .links-container div:hover {
-    background: #96cf6f;
+    background: black;
     color: white;
   }
 
   .active {
-    background: #96cf6f;
+    background: black;
     color: white;
   }
 
@@ -61,6 +49,7 @@
     font-size: 28px;
 }
 
+
 #contactcard
 {
     margin: 0;
@@ -68,23 +57,27 @@
     background: #F0F8FF;
     font-size: 18px;
     color: #777;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     background-image: url('coding.jpg');
     
 }
 
 #card {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(251, 251, 251, 0.9);
 }
 
 #about {
   font-weight: bolder;
   color: #222;
-  font-size: 28px;
+  font-size: 25px;
+  font-style: inherit;
+  text-align: center;
+  font-family: 'sans-serif';
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 #card2 {
-background: rgba(253, 245, 245, 0.7);
+background: rgba(251, 251, 251, 0.95);
 }
 
 #pic {
@@ -95,7 +88,7 @@ background: rgba(253, 245, 245, 0.7);
 
 #bio {
   color: black;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 
@@ -105,8 +98,14 @@ background: rgba(253, 245, 245, 0.7);
     height: 600px;
     width: 1000px;
     background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+
+}
+
+.container{
+  padding: 20px;
 
 }
 
@@ -121,7 +120,9 @@ background: rgba(253, 245, 245, 0.7);
     height: 400px;    
 }
 
-
+#a {
+  font-size: 24px;
+}
 
 #text{
     display: block;
@@ -404,7 +405,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 #name {
   font-size: 50px;
   text-align: center;
-  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 1.9);
+  color:white;
+  margin: 10px;
+  font-style: inherit;
+  
   
 }
 

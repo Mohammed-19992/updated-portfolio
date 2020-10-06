@@ -4,44 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Domine&family=Fredoka+One&family=Permanent+Marker&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
-  <title>Mohammed Arafat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+    <title>Mohammed Arafat</title>
 </head>
 <header>
-  <div class="nav-out">
-
-    <i class="fa fa-bars" id="bars"></i>
-    <div class="links-container">
-      <a href="">
-        <div class="active">Home</div>
-      </a>
-      <a href="index.html">
-        <div>about</div>
-      </a>
-      <a href="https://moharafat.wordpress.com/">
-        <div>blog</div>
-      </a>
-      <a href="contact.html">
-        <div>contact</div>
-      </a>
-      <a href="">
-        <div>advertise</div>
-      </a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <div class="links-container" class="navbar-nav mr-auto">
+           
+            <div class="nav-item">
+                <a class="nav-link" href="//codeply.com">Codeply</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </div>
+          </div>
     </div>
-  </div>
+    <div class="mx-auto order-0">
+      <a style="font-family: 'Chivo', sans-serif;" class="navbar-brand mx-auto" href="#">"Programming is the purest form of poetry." - Dr. Alan Perlis</a>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a id="currentTime"></a>
+            </li>
+            <li class="nav-item">
+            </li>
+        </ul>
+    </div>
+</nav>
+
 </header>
 
 <body id="contactcard">
-  <div id="name" style="font-family: 'Chivo', sans-serif;
-    font-weight: 300;">Mohammed Arafat</div>
+  <div id="name" style="font-family: 'Chivo', sans-serif; font-weight: 300;">Mohammed Arafat</div>
   <img id="img1" src="pix2.JPG" alt="mohammed">
   <br>
   <br>
@@ -49,8 +55,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg" id="card">
-        <a id="about">About Me</a>
-        <p id="bio">Front-end web developer with a content-writing and poetry background to offer clients full website
+        <br>
+        <div id="about">
+        <a style="font-family: 'Noto Sans JP', sans-serif;">About Me</a>
+        </div>
+        <br>
+        <br>
+        <p style="font-family: 'Noto Sans JP', sans-serif;" id="bio">Front-end web developer with a content-writing and poetry background to offer clients full website
           services. I recently enrolled in and completed a full-stack development “Coding Bootcamp” at The George
           Washington University, earning a certificate in full-stack development and newly-developed skills in HTML,
           CSS, Responsive Web Design, JavaScript, jQuery, among others. My goal is to engage users through web and app
@@ -63,25 +74,34 @@
       </div>
       <br>
       <div class="col-lg" id="card2">
-        <a id="about">Projects I Created</a>
+        <br>
+        <div id="about">
+        <a style="font-family: 'Noto Sans JP', sans-serif;">Projects</a>
+        </div>
+        <br>
+        <br>
         <div class="row">
-          <a href="https://mohammed-19992.github.io/Sensitive-password-generator/"><img id="pic" src="password.png"
-              alt="passwordGenerator1" opacity="0" width="170px" height="170px"></a>
+          <a id="a" href="password.html" style="font-family: 'Noto Sans JP', sans-serif;"><img id="pic" src="pass.png"
+              alt="passwordGenerator1" width="130px" height="130px">Password Generator</a>
+           </div>
+                   
+        <div class="row">
+          <a id="a" href="planner.html" style="font-family: 'Noto Sans JP', sans-serif;"><img id="pic" src="calender.png" alt="planner"
+              width="130px" height="130px">Day Planner</a>
+
         </div>
 
         <div class="row">
-          <a href="https://mohammed-19992.github.io/day-planner/"><img id="pic" src="planner.png" alt="planner"
-              opacity="0" width="170px" height="170px"></a>
-
-        </div>
-
-        <div class="row">
-          <a href="https://mohammed-19992.github.io/weather-dashboard/"><img id="pic" src="weather.png" alt="weather"
-              opacity="0" width="170px" height="170px"></a>
+          <a id="a" href="weather.html" style="font-family: 'Noto Sans JP', sans-serif;"><img id="pic" src="dashboard.png" alt="weather"
+               width="130px" height="130px">Weather Dashboard</a>
         </div>
         <div class="row">
-          <a href="https://talysh.github.io/explorer/index.html"><img id="pic" src="project1.png" alt="explorProject"
-              opacity="0" width="170px" height="170px"></a>
+          <a id="a" href="project1.html" style="font-family: 'Noto Sans JP', sans-serif;"><img id="pic" src="plane.png" alt="explorProject"
+               width="130px" height="130px">Explore Project</a>
+        </div>
+        <div class="row">
+          <a id="a" href="quiz.html" style="font-family: 'Noto Sans JP', sans-serif;"><img id="pic" src="code.png" alt="quiz"
+               width="130px" height="130px">Code Quiz</a>
         </div>
       </div>
 
@@ -110,24 +130,24 @@
         <a href="#">Contact</a>
       </p>
 
-      <p class="footer-company-name">Mohammed Arafat © 2020</p>
+      <p style="font-family: 'Noto Sans JP', sans-serif;" class="footer-company-name">Mohammed Arafat © 2020</p>
     </div>
 
     <div class="footer-center">
 
       <div>
         <i class="fa fa-map-marker"></i>
-        <p><span>Valley Lane</span> Falls Church, Virginia</p>
+        <p style="font-family: 'Noto Sans JP', sans-serif;"></p><span>Valley Lane</span> Falls Church, Virginia</p>
       </div>
 
       <div>
         <i class="fa fa-phone"></i>
-        <p>+1 (571) 343-8212</p>
+        <p style="font-family: 'Noto Sans JP', sans-serif;">+1 (571) 343-8212</p>
       </div>
 
       <div>
         <i class="fa fa-envelope"></i>
-        <p><a href="mailto:abusalaharafat@hotmail.com">abusalaharafat@hotmail.com</a></p>
+        <p style="font-family: 'Noto Sans JP', sans-serif;"><a href="mailto:abusalaharafat@hotmail.com">abusalaharafat@hotmail.com</a></p>
       </div>
 
     </div>
@@ -150,6 +170,9 @@
       </div>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
